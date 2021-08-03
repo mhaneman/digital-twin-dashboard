@@ -1,0 +1,29 @@
+.room {
+    padding: 15px 20px;
+    position: sticky;
+    background-color: white;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+
+    min-height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.room__roomName {
+    text-align: center;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.room__roomDetails {
+
+}
+
+.room:hover {
+    transform: scale(1.05);
+    color: grey;
+}

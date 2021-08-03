@@ -1,0 +1,9 @@
+.rooms {
+    display: grid;
+    gap: 30px 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.loading {
+    padding: 30px 30px;
+}

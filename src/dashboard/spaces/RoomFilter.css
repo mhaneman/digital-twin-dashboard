@@ -1,0 +1,19 @@
+.roomFilter {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    background-color: rgb(241, 255, 238);
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.roomFilter__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.roomFilter__right {
+    
+}

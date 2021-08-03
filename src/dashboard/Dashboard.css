@@ -1,0 +1,7 @@
+.dashboard {
+    background-color: rgb(243, 243, 243);
+}
+
+.dashboard__body {
+    display: flex;
+}

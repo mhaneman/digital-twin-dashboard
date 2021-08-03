@@ -1,0 +1,1118 @@
+{
+    "locations": {
+        "room_0": {
+            "count": 0,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        
+         "room_1": {
+            "count": 1,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 1,
+            "y": 1,
+            "z": 1
+        },
+        
+         "room_2": {
+            "count": 2,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 2,
+            "y": 2,
+            "z": 2
+        },
+        
+         "room_3": {
+            "count": 3,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 3,
+            "y": 3,
+            "z": 3
+        },
+        
+         "room_4": {
+            "count": 4,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 4,
+            "y": 4,
+            "z": 4
+        },
+        
+         "room_5": {
+            "count": 5,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 5,
+            "y": 5,
+            "z": 5
+        },
+        
+         "room_6": {
+            "count": 6,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 6,
+            "y": 6,
+            "z": 6
+        },
+        
+         "room_7": {
+            "count": 7,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 7,
+            "y": 7,
+            "z": 7
+        },
+        
+         "room_8": {
+            "count": 8,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 8,
+            "y": 8,
+            "z": 8
+        },
+        
+         "room_9": {
+            "count": 9,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 9,
+            "y": 9,
+            "z": 9
+        },
+        
+         "room_10": {
+            "count": 10,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 10,
+            "y": 10,
+            "z": 10
+        },
+        
+         "room_11": {
+            "count": 11,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 11,
+            "y": 11,
+            "z": 11
+        },
+        
+         "room_12": {
+            "count": 12,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 12,
+            "y": 12,
+            "z": 12
+        },
+        
+         "room_13": {
+            "count": 13,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 13,
+            "y": 13,
+            "z": 13
+        },
+        
+         "room_14": {
+            "count": 14,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 14,
+            "y": 14,
+            "z": 14
+        },
+        
+         "room_15": {
+            "count": 15,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 15,
+            "y": 15,
+            "z": 15
+        },
+        
+         "room_16": {
+            "count": 16,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 16,
+            "y": 16,
+            "z": 16
+        },
+        
+         "room_17": {
+            "count": 17,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 17,
+            "y": 17,
+            "z": 17
+        },
+        
+         "room_18": {
+            "count": 18,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 18,
+            "y": 18,
+            "z": 18
+        },
+        
+         "room_19": {
+            "count": 19,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 19,
+            "y": 19,
+            "z": 19
+        },
+        
+         "room_20": {
+            "count": 20,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 20,
+            "y": 20,
+            "z": 20
+        },
+        
+         "room_21": {
+            "count": 21,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 21,
+            "y": 21,
+            "z": 21
+        },
+        
+         "room_22": {
+            "count": 22,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 22,
+            "y": 22,
+            "z": 22
+        },
+        
+         "room_23": {
+            "count": 23,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 23,
+            "y": 23,
+            "z": 23
+        },
+        
+         "room_24": {
+            "count": 24,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 24,
+            "y": 24,
+            "z": 24
+        },
+        
+         "room_25": {
+            "count": 25,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 25,
+            "y": 25,
+            "z": 25
+        },
+        
+         "room_26": {
+            "count": 26,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 26,
+            "y": 26,
+            "z": 26
+        },
+        
+         "room_27": {
+            "count": 27,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 27,
+            "y": 27,
+            "z": 27
+        },
+        
+         "room_28": {
+            "count": 28,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 28,
+            "y": 28,
+            "z": 28
+        },
+        
+         "room_29": {
+            "count": 29,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 29,
+            "y": 29,
+            "z": 29
+        },
+        
+         "room_30": {
+            "count": 30,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 30,
+            "y": 30,
+            "z": 30
+        },
+        
+         "room_31": {
+            "count": 31,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 31,
+            "y": 31,
+            "z": 31
+        },
+        
+         "room_32": {
+            "count": 32,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 32,
+            "y": 32,
+            "z": 32
+        },
+        
+         "room_33": {
+            "count": 33,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 33,
+            "y": 33,
+            "z": 33
+        },
+        
+         "room_34": {
+            "count": 34,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 34,
+            "y": 34,
+            "z": 34
+        },
+        
+         "room_35": {
+            "count": 35,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 35,
+            "y": 35,
+            "z": 35
+        },
+        
+         "room_36": {
+            "count": 36,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 36,
+            "y": 36,
+            "z": 36
+        },
+        
+         "room_37": {
+            "count": 37,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 37,
+            "y": 37,
+            "z": 37
+        },
+        
+         "room_38": {
+            "count": 38,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 38,
+            "y": 38,
+            "z": 38
+        },
+        
+         "room_39": {
+            "count": 39,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 39,
+            "y": 39,
+            "z": 39
+        },
+        
+         "room_40": {
+            "count": 40,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 40,
+            "y": 40,
+            "z": 40
+        },
+        
+         "room_41": {
+            "count": 41,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 41,
+            "y": 41,
+            "z": 41
+        },
+        
+         "room_42": {
+            "count": 42,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 42,
+            "y": 42,
+            "z": 42
+        },
+        
+         "room_43": {
+            "count": 43,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 43,
+            "y": 43,
+            "z": 43
+        },
+        
+         "room_44": {
+            "count": 44,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 44,
+            "y": 44,
+            "z": 44
+        },
+        
+         "room_45": {
+            "count": 45,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 45,
+            "y": 45,
+            "z": 45
+        },
+        
+         "room_46": {
+            "count": 46,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 46,
+            "y": 46,
+            "z": 46
+        },
+        
+         "room_47": {
+            "count": 47,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 47,
+            "y": 47,
+            "z": 47
+        },
+        
+         "room_48": {
+            "count": 48,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 48,
+            "y": 48,
+            "z": 48
+        },
+        
+         "room_49": {
+            "count": 49,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 49,
+            "y": 49,
+            "z": 49
+        },
+        
+         "room_50": {
+            "count": 50,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 50,
+            "y": 50,
+            "z": 50
+        },
+        
+         "room_51": {
+            "count": 51,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 51,
+            "y": 51,
+            "z": 51
+        },
+        
+         "room_52": {
+            "count": 52,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 52,
+            "y": 52,
+            "z": 52
+        },
+        
+         "room_53": {
+            "count": 53,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 53,
+            "y": 53,
+            "z": 53
+        },
+        
+         "room_54": {
+            "count": 54,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 54,
+            "y": 54,
+            "z": 54
+        },
+        
+         "room_55": {
+            "count": 55,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 55,
+            "y": 55,
+            "z": 55
+        },
+        
+         "room_56": {
+            "count": 56,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 56,
+            "y": 56,
+            "z": 56
+        },
+        
+         "room_57": {
+            "count": 57,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 57,
+            "y": 57,
+            "z": 57
+        },
+        
+         "room_58": {
+            "count": 58,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 58,
+            "y": 58,
+            "z": 58
+        },
+        
+         "room_59": {
+            "count": 59,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 59,
+            "y": 59,
+            "z": 59
+        },
+        
+         "room_60": {
+            "count": 60,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 60,
+            "y": 60,
+            "z": 60
+        },
+        
+         "room_61": {
+            "count": 61,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 61,
+            "y": 61,
+            "z": 61
+        },
+        
+         "room_62": {
+            "count": 62,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 62,
+            "y": 62,
+            "z": 62
+        },
+        
+         "room_63": {
+            "count": 63,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 63,
+            "y": 63,
+            "z": 63
+        },
+        
+         "room_64": {
+            "count": 64,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 64,
+            "y": 64,
+            "z": 64
+        },
+        
+         "room_65": {
+            "count": 65,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 65,
+            "y": 65,
+            "z": 65
+        },
+        
+         "room_66": {
+            "count": 66,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 66,
+            "y": 66,
+            "z": 66
+        },
+        
+         "room_67": {
+            "count": 67,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 67,
+            "y": 67,
+            "z": 67
+        },
+        
+         "room_68": {
+            "count": 68,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 68,
+            "y": 68,
+            "z": 68
+        },
+        
+         "room_69": {
+            "count": 69,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 69,
+            "y": 69,
+            "z": 69
+        },
+        
+         "room_70": {
+            "count": 70,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 70,
+            "y": 70,
+            "z": 70
+        },
+        
+         "room_71": {
+            "count": 71,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 71,
+            "y": 71,
+            "z": 71
+        },
+        
+         "room_72": {
+            "count": 72,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 72,
+            "y": 72,
+            "z": 72
+        },
+        
+         "room_73": {
+            "count": 73,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 73,
+            "y": 73,
+            "z": 73
+        },
+        
+         "room_74": {
+            "count": 74,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 74,
+            "y": 74,
+            "z": 74
+        },
+        
+         "room_75": {
+            "count": 75,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 75,
+            "y": 75,
+            "z": 75
+        },
+        
+         "room_76": {
+            "count": 76,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 76,
+            "y": 76,
+            "z": 76
+        },
+        
+         "room_77": {
+            "count": 77,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 77,
+            "y": 77,
+            "z": 77
+        },
+        
+         "room_78": {
+            "count": 78,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 78,
+            "y": 78,
+            "z": 78
+        },
+        
+         "room_79": {
+            "count": 79,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 79,
+            "y": 79,
+            "z": 79
+        },
+        
+         "room_80": {
+            "count": 80,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 80,
+            "y": 80,
+            "z": 80
+        },
+        
+         "room_81": {
+            "count": 81,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 81,
+            "y": 81,
+            "z": 81
+        },
+        
+         "room_82": {
+            "count": 82,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 82,
+            "y": 82,
+            "z": 82
+        },
+        
+         "room_83": {
+            "count": 83,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 83,
+            "y": 83,
+            "z": 83
+        },
+        
+         "room_84": {
+            "count": 84,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 84,
+            "y": 84,
+            "z": 84
+        },
+        
+         "room_85": {
+            "count": 85,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 85,
+            "y": 85,
+            "z": 85
+        },
+        
+         "room_86": {
+            "count": 86,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 86,
+            "y": 86,
+            "z": 86
+        },
+        
+         "room_87": {
+            "count": 87,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 87,
+            "y": 87,
+            "z": 87
+        },
+        
+         "room_88": {
+            "count": 88,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 88,
+            "y": 88,
+            "z": 88
+        },
+        
+         "room_89": {
+            "count": 89,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 89,
+            "y": 89,
+            "z": 89
+        },
+        
+         "room_90": {
+            "count": 90,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 90,
+            "y": 90,
+            "z": 90
+        },
+        
+         "room_91": {
+            "count": 91,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 91,
+            "y": 91,
+            "z": 91
+        },
+        
+         "room_92": {
+            "count": 92,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 92,
+            "y": 92,
+            "z": 92
+        },
+        
+         "room_93": {
+            "count": 93,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 93,
+            "y": 93,
+            "z": 93
+        },
+        
+         "room_94": {
+            "count": 94,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 94,
+            "y": 94,
+            "z": 94
+        },
+        
+         "room_95": {
+            "count": 95,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 95,
+            "y": 95,
+            "z": 95
+        },
+        
+         "room_96": {
+            "count": 96,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 96,
+            "y": 96,
+            "z": 96
+        },
+        
+         "room_97": {
+            "count": 97,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 97,
+            "y": 97,
+            "z": 97
+        },
+        
+         "room_98": {
+            "count": 98,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 98,
+            "y": 98,
+            "z": 98
+        },
+        
+         "room_99": {
+            "count": 99,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 99,
+            "y": 99,
+            "z": 99
+        },
+        
+         "room_100": {
+            "count": 100,
+            "target_capacity": 100,
+            "legal_capacity": 200,
+            "doorways": 1,
+            "area": 1000,
+            "x": 100,
+            "y": 100,
+            "z": 100
+        }
+        
+         
+    },
+
+    "success":true
+}

@@ -1,0 +1,19 @@
+.roomGraph {
+    padding: 15px 20px;
+}
+
+.roomGraph__title {
+    padding-bottom: 30px;
+}
+.roomGraph__details {
+    display: flex;
+    justify-content: left;
+}
+
+.roomGraph__details__item {
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
