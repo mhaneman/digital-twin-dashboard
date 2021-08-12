@@ -12,9 +12,14 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <SidebarIdtem Icon={NoteIcon} title='Summary' link = '/dashboard/summary' />
+
             <SidebarIdtem Icon={MeetingRoomIcon} title='Spaces' link = '/dashboard/spaces' />
+
             <SidebarIdtem Icon={AssessmentIcon} title='Analytics' link = '/dashboard/analytics' />
+
             <SidebarIdtem Icon={LiveTvIcon} title='Live' link='/dashboard/'/>
+
+            <SidebarIdtem Icon={LiveTvIcon} title='Buildings' link='/dashboard/buildings'/>
         </div>
     )
 }
