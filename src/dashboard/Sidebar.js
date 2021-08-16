@@ -6,6 +6,7 @@ import MeetingRoomIcon from '@material-ui/icons/MeetingRoom';
 import NoteIcon from '@material-ui/icons/Note';
 import AssessmentIcon from '@material-ui/icons/Assessment';
 import LiveTvIcon from '@material-ui/icons/LiveTv';
+import BusinessIcon from '@material-ui/icons/Business';
 
 
 function Sidebar() {
@@ -19,7 +20,7 @@ function Sidebar() {
 
             <SidebarIdtem Icon={LiveTvIcon} title='Live' link='/dashboard/'/>
 
-            <SidebarIdtem Icon={LiveTvIcon} title='Buildings' link='/dashboard/buildings'/>
+            <SidebarIdtem Icon={BusinessIcon} title='Buildings' link='/dashboard/buildings'/>
         </div>
     )
 }
