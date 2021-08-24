@@ -1,7 +1,18 @@
-.dashboard {
-    background-color: rgb(243, 243, 243);
+.dashboard__sidebar {
+    width: 12rem;
+    height: 100vh;
+    box-shadow: var(--box-shadow-sidebar);
+    position: fixed;
+
+    background-color: var(--bg);
+    color: var(--text-color);
 }
 
 .dashboard__body {
     display: flex;
+    margin-left: 12rem;
+    padding: 2rem;
+    min-height: 100vh;
+
+    background-color: var(--bg-accent);
 }

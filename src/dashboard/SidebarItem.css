@@ -1,21 +1,26 @@
 .sidebarItem {
     display: flex;
-    align-items: center;
-    padding: 10px;
+    align-items: center; /* aline y-axis */
     cursor: pointer;
+
+    margin: 10px 0; /* spacing between items */
+    padding: 20px 20px; /* padding between sidebarItem and Sidebar */
 }
 
 .sidebarItem:hover {
-    background-color: lightgray;
-    border-radius: 10px;
+    background-color: var(--hover-color);
+    border-radius: var(--border-radius);
 }
 
-.sidebarItem > h4 {
-    margin-left: 20px;
+h4 {
+    margin-left: 25px; /* space between icon and text */
     font-weight: 600;
 }
 
 .sidebarItem > .MuiSvgIcon-root {
-    font-size: xx-large;
-    color: #3e4550;
+    color: var(--icon-color);
+}
+
+.sidebarItem:hover > .MuiSvgIcon-root {
+    color: rgb(119, 197, 145);
 }

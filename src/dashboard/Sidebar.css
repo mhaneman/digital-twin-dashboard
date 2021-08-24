@@ -1,5 +1,7 @@
 .sidebar {
-    background-color: white;
-    padding: 25px 10px;
-    flex: 0.15;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column; /* get each sidebarItem to align vertically */
 }

@@ -1,12 +1,12 @@
 .roomFilter {
+    display: flex;
+    justify-content: space-between;
+    
     padding: 15px 20px;
     margin-bottom: 15px;
     background-color: rgb(241, 255, 238);
-    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
-    border-radius: 10px;
-
-    display: flex;
-    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
 }
 
 .roomFilter__left {

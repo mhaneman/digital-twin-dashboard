@@ -1,12 +1,12 @@
 import './BuildingBlueprint.css'
 
-import React, { useRef, useMemo } from 'react'
+import React, { useRef, useMemo, useState} from 'react'
 
 import { useHistory } from 'react-router-dom'
 
-import { extend, Canvas, useFrame} from '@react-three/fiber'
+import { Canvas } from '@react-three/fiber'
 
-import { OrbitControls, Sky, Extrude, Text, Line} from '@react-three/drei'
+import { MapControls, Sky, Extrude, Text, Line } from '@react-three/drei'
 
 import { Shape } from 'three'
 
@@ -28,6 +28,13 @@ const GenerateBuildingShape = (coordinates) => {
 
 const BuildingShape = ({roomName, position, coordinates, history}) => {
 
+    const [lineColor, setLineColor] = useState("#000000");
+
+
+    const [roomOpacity, setRoomOpacity] = useState(0.5);
+    const [roomColor, setRoomColor] = useState("black");
+
+
     const shape = GenerateBuildingShape (coordinates);
 
     const extrudeSettings = useMemo(() => ({
@@ -44,6 +51,15 @@ const BuildingShape = ({roomName, position, coordinates, history}) => {
     return (
         <mesh 
             onDoubleClick = {() => history.push(`/dashboard/spaces/${roomName}`)}
+            onPointerOver = {() => {
+                setLineColor("#ffffff")
+                setRoomOpacity(0.2)
+            }}
+
+            onPointerOut = {() => {
+                setLineColor("#000000")
+                setRoomOpacity(0.5)
+            }}
         >
             <Text
                 color={'#EC2D2D'}
@@ -67,14 +83,11 @@ const BuildingShape = ({roomName, position, coordinates, history}) => {
                 rotation = {[-Math.PI / 2, 0, 0]} 
                 position = {position}
             >
-
-                {/* <meshPhongMaterial attach="material" color="#efefef" wireframe /> */}
-
                 <meshLambertMaterial 
-                    attach="material" 
-                    color="white" 
+                    attach = "material" 
+                    color = {roomColor} 
                     transparent = {true} 
-                    opacity = {0.5}
+                    opacity = {roomOpacity}
                 />
 
             </Extrude>
@@ -82,17 +95,17 @@ const BuildingShape = ({roomName, position, coordinates, history}) => {
             <Line
                 position = {position}
                 rotation = {[Math.PI, 0, 0]}
-                points={coordinates.map((coordinate) => [coordinate[0], 0, coordinate[1]])} // convert to 3d vector
-                color="black"                   
-                lineWidth={1}                   
-                dashed={false}
+                points = {coordinates.map((coordinate) => [coordinate[0], 0, coordinate[1]])} // convert to 3d vector
+                color = {lineColor}                   
+                lineWidth = {1}                   
+                dashed = {false}
             />
 
             <Line
                 position = {position}
                 rotation = {[Math.PI, 0, 0]}
                 points={coordinates.map((coordinate) => [coordinate[0], -16, coordinate[1]])} // convert to 3d vector
-                color="black"                   
+                color = {lineColor}                   
                 lineWidth={1}                   
                 dashed={false}
             />
@@ -106,7 +119,9 @@ function BuildingBlueprint() {
 
     return (
         <div className = 'buildingBlueprint'>
-            <Canvas camera = {worldCamera} >
+
+            <Canvas camera={worldCamera} alpha={true}>
+
                 <ambientLight intensity = {0.5} />
 
                 {
@@ -127,7 +142,8 @@ function BuildingBlueprint() {
                     azimuth={0.25} // Sun rotation around the Y axis from 0 to 1 (default=0.25)
                 />
 
-                <OrbitControls />
+                {/* <OrbitControls /> */}
+                <MapControls />
 
             </Canvas>
         </div>

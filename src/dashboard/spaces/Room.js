@@ -4,7 +4,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Room({roomName, currentCount, targetCap, legalCap, doorways, area}) {
-    var roomColor = currentCount / targetCap <= 0.5 ? 250 : Math.floor(250 - (currentCount / targetCap) * 125);
+
+    var roomColor = (currentCount / targetCap <= 0.5) ? 250 : Math.floor(250 - (currentCount / targetCap) * 125);
     
     return (
         <Link className = 'link' to={`/dashboard/spaces/${roomName}`}>

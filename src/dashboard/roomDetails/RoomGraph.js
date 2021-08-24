@@ -2,8 +2,10 @@ import './RoomGraph.css'
 
 import React from 'react';
 import { Line, defaults } from 'react-chartjs-2';
+import { PlayCircleFilledWhite } from '@material-ui/icons';
 
 defaults.plugins.legend = false;
+// defaults.borderColor = "white";
 
 function RoomGraph({title, details, plot}) {
 
@@ -44,9 +46,11 @@ function RoomGraph({title, details, plot}) {
                 options = {{
                     scales: 
                     {
-                        x: { ticks: { display: false }, grid:{ display:false } },
-                        y: { ticks: { display: false }, grid:{ display:false } }
-                    }, 
+                        x: { ticks: { display: false }, grid:{ display: false, drawBorder: false} },
+                        y: { ticks: { display: false }, grid:{ display: false, drawBorder: false} },
+                    },
+
+                    borderColor: "white"
                     // elements: { point: { radius: 0 } }
                 }}
             />

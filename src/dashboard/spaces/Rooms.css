@@ -6,4 +6,5 @@
 
 .loading {
     padding: 30px 30px;
+    color: var(--text-color);
 }

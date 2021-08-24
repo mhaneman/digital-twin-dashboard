@@ -58,9 +58,9 @@ function RoomFilter({checkboxState, setCheckboxState, sliderPercentageState, set
     return (
         <div className='roomFilter'>
             <div className='roomFilter__left'>
-            <FormControlLabel
-                control={<Checkbox checked={checkboxState.filters} onChange={handleCheckboxChange} name="filters" color="white" />}
-                label="Dashboard Filters" />
+                <FormControlLabel
+                    control={<Checkbox checked={checkboxState.filters} onChange={handleCheckboxChange} name="filters" color="white" />}
+                    label="Dashboard Filters" />
             </div>
 
             { checkboxState.filters &&
