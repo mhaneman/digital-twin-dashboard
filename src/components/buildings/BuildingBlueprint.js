@@ -142,7 +142,6 @@ function BuildingBlueprint() {
                     azimuth={0.25} // Sun rotation around the Y axis from 0 to 1 (default=0.25)
                 />
 
-                {/* <OrbitControls /> */}
                 <MapControls />
 
             </Canvas>

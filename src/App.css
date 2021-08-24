@@ -1,5 +1,20 @@
-.app {
-    
+.dashboard__sidebar {
+    position: fixed;
+    width: var(--sidebar-width);
+    min-height: 100vh;
+
+    background-color: var(--bg);
+    color: var(--text-color);
+    box-shadow: var(--box-shadow-sidebar);
+}
+
+.dashboard__body {
+    display: flex;
+    margin-left: var(--sidebar-width);
+    padding: 2rem;
+    min-height: 100vh;
+
+    background-color: var(--bg-accent);
 }
 
 .link {

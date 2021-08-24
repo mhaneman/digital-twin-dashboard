@@ -1,3 +1,8 @@
+.sidebar {
+    display: flex;
+    flex-direction: column; /* get each sidebarItem to align vertically */
+}
+
 .sidebarItem {
     display: flex;
     align-items: center; /* aline y-axis */
