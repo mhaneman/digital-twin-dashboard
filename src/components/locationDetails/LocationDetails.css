@@ -18,6 +18,7 @@
     text-align: center;
     padding-bottom: 20px;
 }
+
 .locationDetails__header__details {
     display: flex;
     flex-direction: row;
@@ -26,7 +27,7 @@
 }
 
 .locationDetails__header__details__item {
-
+    text-align: left;
 }
 
 .locationDetails__body {
@@ -58,5 +59,4 @@
 
 .locationDetails__body__right > * {
     margin-bottom: 20px;
-    border-bottom: solid 1px rgb(201, 201, 201);
 }

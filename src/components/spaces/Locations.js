@@ -1,7 +1,8 @@
 import './Locations.css'
 
-import React, {useState, useEffect} from 'react'
-import axios from 'axios'
+import React, { useState } from 'react'
+
+import useApiRequest from '../useApiRequest'
 
 import FakeLinearLocationData from '../../fakeData/linear_locations.json'
 import FakeRandomLocationData from '../../fakeData/random_locations.json'
@@ -47,13 +48,11 @@ function Locations({checkboxState, sliderPercentageState, sliderLocationState}) 
     const smartCampusAPI = 'https://smartcampus.city/api/data/'
     const [locationData, setlocationData] = useState(null);
 
-    useEffect(() => {
-        axios.get(smartCampusAPI)
-        .then(response => 
-            {
-                setlocationData(response.data)
-            });
-    }, [smartCampusAPI]);
+    const data = useApiRequest(smartCampusAPI);
+
+    if (data.errorMessage === null && data.data != null) {
+        setlocationData(data);
+    }
 
     // display data when api call returns OR using fake api calls
     if (locationData || checkboxState.linear_data || checkboxState.random_data)
@@ -89,13 +88,20 @@ function Locations({checkboxState, sliderPercentageState, sliderLocationState}) 
         )
     }
 
+    if (data.errorMessage != null) {
+        return (
+            <div className = 'loading'>
+                {data.errorMessage}
+            </div>
+        );
+    }
+
     // return loading if api data hasn't come back yet
     return (
         <div className = 'loading'>
             Loading Data ...
         </div>
-
-    )
+    );
 
 }
 

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 
-export default function useDetectClickOut(initState) {
+const useDetectClickOut = (initState) => {
     const triggerRef = useRef(null); // optional
     const nodeRef = useRef(null); // required 
 
@@ -32,5 +32,6 @@ export default function useDetectClickOut(initState) {
         show,
         setShow
     }
-
   }
+
+  export default useDetectClickOut;

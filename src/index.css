@@ -10,6 +10,7 @@
 :root {
     --border-radius: 9px;
     --sidebar-width: 12rem;
+    --color-green: rgb(119, 197, 145);
 }
 
 html {
@@ -18,8 +19,9 @@ html {
 
 body {
     --bg: white;
-    --bg-container: white;
     --bg-accent: rgb(243, 243, 243);
+    --bg-container: rgb(250, 250, 250);
+    --bg-container-accent: white;
 
     --text-color: black;
     --text-shadow: 0;
@@ -34,8 +36,9 @@ body {
 body.dark {
 
     --bg: rgb(34, 34, 34);
-    --bg-container: rgb(54, 54, 54);
     --bg-accent: rgb(40, 40, 40);
+    --bg-container: rgb(54, 54, 54);
+    --bg-container-accent: rgb(68, 68, 68);
 
     --text-color: white;
     --text-shadow: 

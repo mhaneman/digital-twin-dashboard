@@ -17,7 +17,7 @@
     border-radius: var(--border-radius);
 }
 
-h4 {
+.sidebarItem > h4 {
     margin-left: 25px; /* space between icon and text */
     font-weight: 600;
 }
@@ -27,5 +27,5 @@ h4 {
 }
 
 .sidebarItem:hover > .MuiSvgIcon-root {
-    color: rgb(119, 197, 145);
+    color: var(--color-green);
 }

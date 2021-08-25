@@ -10,7 +10,7 @@ import { withStyles, makeStyles } from '@material-ui/core/styles';
 
 const GreenSlider = withStyles({
     root: {
-      color: '#52af77',
+      color: '#77c591',
       height: 8,
     },
     thumb: {
@@ -40,9 +40,9 @@ const GreenSlider = withStyles({
 
   const GreenCheckbox = withStyles({
     root: {
-        color: '#52af77',
+        color: '#77c591',
         '&$checked': {
-            color: '#52af77',
+            color: '#77c591',
         },
     },
     checked: {},

@@ -17,3 +17,9 @@
     padding-right: 40px;
     padding-bottom: 40px;
 }
+
+.locationGraph__graph {
+    padding: 10px 10px;
+    background-color:var(--bg-container-accent);
+    border-radius: var(--border-radius);
+}

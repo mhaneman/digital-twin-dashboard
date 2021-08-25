@@ -50,7 +50,7 @@ const BuildingShape = ({roomName, position, coordinates, history}) => {
 
     return (
         <mesh 
-            onDoubleClick = {() => history.push(`/dashboard/spaces/${roomName}`)}
+            onClick = {() => history.push(`/dashboard/spaces/${roomName}`)}
             onPointerOver = {() => {
                 setLineColor("#ffffff")
                 setRoomOpacity(0.2)

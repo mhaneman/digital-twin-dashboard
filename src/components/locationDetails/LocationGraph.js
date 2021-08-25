@@ -16,8 +16,8 @@ function LocationGraph({title, details, plot}) {
             label: '',
             data: Array.from(Array(DATA_LENGTH)).map(x=>Math.random()),
             fill: false,
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgba(255, 99, 132, 0.2)',
+            backgroundColor: 'rgb(119, 197, 145)',
+            borderColor: 'rgba(119, 197, 145, 0.2)',
         },],
       };
 
@@ -40,6 +40,7 @@ function LocationGraph({title, details, plot}) {
             </div>
 
             <Line 
+                className = 'locationGraph__graph'
                 data = {data} 
                 options = {{
                     scales: 

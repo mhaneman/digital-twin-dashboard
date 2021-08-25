@@ -24,14 +24,11 @@ function Sidebar() {
     )
 }
 
-const SidebarItem = ({ src, Icon, title, link}) => {
+const SidebarItem = ({ Icon, title, link}) => {
     return (
         <Link className = "link" to = {link} >
-            
             <div className="sidebarItem">
-                {src && <Avatar src={src} />}
                 {Icon && <Icon />}
-                
                 <h4>{title}</h4>
             </div>
         </Link>
