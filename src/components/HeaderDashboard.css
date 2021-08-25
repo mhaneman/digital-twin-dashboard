@@ -1,10 +1,11 @@
 .headerDashboard {
-    padding: 15px 20px;
+    position: sticky;
     display: flex; 
     justify-content: space-between;
-    position: sticky;
-    z-index: 100;
+    z-index: 100; /* the header is on top of everything else */
+
     top: 0;
+    padding: 15px 20px;
 
     background-color: var(--bg);
     color: var(--text-color);
@@ -24,11 +25,16 @@
     color: rgb(119, 197, 145);
 }
 
+.MuiIconButton-root.rotation {
+    transition: transform 500ms;
+    transform: rotate(180deg);
+}
+
 .dropdownMenu {
     position: absolute;
     top: 80px;
-    width: 150px;
-    transform: translate(45%);
+    width: 300px;
+    transform: translate(-10%);
     padding: 1rem;
     overflow: hidden;
 

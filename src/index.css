@@ -1,39 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
 }
 
 :root {
-  font-size: 16px;
-  --border-radius: 9px;
-  --sidebar-width: 12rem;
+    --border-radius: 9px;
+    --sidebar-width: 12rem;
+}
+
+html {
+    font-size: 16px;
 }
 
 body {
-  --bg: white;
-  --bg-container: white;
-  --bg-accent: rgb(243, 243, 243);
+    --bg: white;
+    --bg-container: white;
+    --bg-accent: rgb(243, 243, 243);
 
-  --text-color: black;
-  --icon-color: #525252;
+    --text-color: black;
+    --text-shadow: 0;
+    --icon-color: #525252;
 
-  --box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
-  --box-shadow-sidebar: 2px 0px 8px -9px rgba(0, 0, 0, 0.75);
+    --box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    --box-shadow-sidebar: 2px 0px 8px -9px rgba(0, 0, 0, 0.75);
 
-  --hover-color: rgb(228, 228, 228);
+    --hover-color: rgb(228, 228, 228);
 }
 
 body.dark {
-  --bg: rgb(34, 34, 34);
-  --bg-container: rgb(54, 54, 54);
-  --bg-accent: rgb(40, 40, 40);
-  --text-color: white;
-  --icon-color: white;
-  --box-shadow: 0px 5px 8px -9px rgba(95, 95, 95, 0.75);
-  --box-shadow-sidebar: 2px 0px 8px -9px rgba(216, 216, 216, 0.75);
 
-  --hover-color: rgb(58, 58, 58);
+    --bg: rgb(34, 34, 34);
+    --bg-container: rgb(54, 54, 54);
+    --bg-accent: rgb(40, 40, 40);
+
+    --text-color: white;
+    --text-shadow: 
+        -1px -1px 2px rgb(114, 114, 114),
+        1px -1px 2px rgb(114, 114, 114),
+        -1px 1px 2px rgb(114, 114, 114),
+        1px 1px 2px rgb(114, 114, 114);
+
+    --icon-color: white;
+
+    --box-shadow: 0px 5px 8px -9px rgba(95, 95, 95, 0.75);
+    --box-shadow-sidebar: 2px 0px 8px -9px rgba(216, 216, 216, 0.75);
+
+    --hover-color: rgb(58, 58, 58);
 }

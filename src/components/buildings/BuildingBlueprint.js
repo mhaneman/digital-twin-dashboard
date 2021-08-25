@@ -6,7 +6,7 @@ import { useHistory } from 'react-router-dom'
 
 import { Canvas } from '@react-three/fiber'
 
-import { MapControls, Sky, Extrude, Text, Line } from '@react-three/drei'
+import { MapControls, Extrude, Text, Line } from '@react-three/drei'
 
 import { Shape } from 'three'
 
@@ -32,7 +32,7 @@ const BuildingShape = ({roomName, position, coordinates, history}) => {
 
 
     const [roomOpacity, setRoomOpacity] = useState(0.5);
-    const [roomColor, setRoomColor] = useState("black");
+    const [roomColor, setRoomColor] = useState("white");
 
 
     const shape = GenerateBuildingShape (coordinates);
@@ -120,8 +120,8 @@ function BuildingBlueprint() {
     return (
         <div className = 'buildingBlueprint'>
 
-            <Canvas camera={worldCamera} alpha={true}>
-
+            <Canvas camera={worldCamera} >
+                <color attach="background" args={"rgb(40, 40, 40)"} />
                 <ambientLight intensity = {0.5} />
 
                 {
@@ -134,13 +134,6 @@ function BuildingBlueprint() {
                         />
                     ))
                 }
-
-                <Sky
-                    distance={450000} // Camera distance (default=450000)
-                    sunPosition={[0, 1, 0]} // Sun position normal (defaults to inclination and azimuth if not set)
-                    inclination={0} // Sun elevation angle from 0 to 1 (default=0)
-                    azimuth={0.25} // Sun rotation around the Y axis from 0 to 1 (default=0.25)
-                />
 
                 <MapControls />
 

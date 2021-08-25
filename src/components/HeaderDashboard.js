@@ -29,7 +29,7 @@ function HeaderDashboard() {
                     <NotificationsActiveIcon />
                 </IconButton>
 
-                <IconButton ref = {triggerRef}>
+                <IconButton ref = {triggerRef} className = {show ? `rotation` : null} >
                     <ExpandMoreIcon />
                 </IconButton>
                 

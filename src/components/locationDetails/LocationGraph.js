@@ -1,13 +1,11 @@
-import './RoomGraph.css'
+import './LocationGraph.css'
 
 import React from 'react';
 import { Line, defaults } from 'react-chartjs-2';
-import { PlayCircleFilledWhite } from '@material-ui/icons';
 
 defaults.plugins.legend = false;
-// defaults.borderColor = "white";
 
-function RoomGraph({title, details, plot}) {
+function LocationGraph({title, details, plot}) {
 
     const DATA_LENGTH = 100;
 
@@ -24,16 +22,16 @@ function RoomGraph({title, details, plot}) {
       };
 
     return (
-        <div className='roomGraph'>
+        <div className='locationGraph'>
 
-            <div className="roomGraph__title">
+            <div className="locationGraph__title">
                 <h3>{title}</h3>
             </div>
 
-            <div className="roomGraph__details">
+            <div className="locationGraph__details">
                 {
                     details.map((detail) => (
-                        <div className="roomGraph__details__item">
+                        <div className="locationGraph__details__item">
                             <h4> {detail.name} </h4>
                             <h5> {detail.value} </h5>
                         </div>
@@ -49,9 +47,6 @@ function RoomGraph({title, details, plot}) {
                         x: { ticks: { display: false }, grid:{ display: false, drawBorder: false} },
                         y: { ticks: { display: false }, grid:{ display: false, drawBorder: false} },
                     },
-
-                    borderColor: "white"
-                    // elements: { point: { radius: 0 } }
                 }}
             />
             
@@ -59,4 +54,4 @@ function RoomGraph({title, details, plot}) {
     )
 }
 
-export default RoomGraph
+export default LocationGraph

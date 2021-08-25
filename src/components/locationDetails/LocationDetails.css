@@ -1,4 +1,4 @@
-.roomDetails {
+.locationDetails {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -6,7 +6,7 @@
 
 }
 
-.roomDetails__header {
+.locationDetails__header {
     padding: 15px 20px;
     background-color: var(--bg-container);
     box-shadow: var(--box-shadow);
@@ -14,29 +14,29 @@
     color: var(--text-color);
 }
 
-.roomDetails__header__roomNumber {
+.locationDetails__header__locationNumber {
     text-align: center;
     padding-bottom: 20px;
 }
-.roomDetails__header__details {
+.locationDetails__header__details {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 10px;
 }
 
-.roomDetails__header__details__item {
+.locationDetails__header__details__item {
 
 }
 
-.roomDetails__body {
+.locationDetails__body {
     display: grid;
 
     grid-template-columns: 1.5fr 1fr;
     margin-top: 20px;
 }
 
-.roomDetails__body__left {
+.locationDetails__body__left {
     background-color: var(--bg-container);
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
@@ -48,7 +48,7 @@
     text-align: center;
 }
 
-.roomDetails__body__right {
+.locationDetails__body__right {
     background-color: var(--bg-container);
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
@@ -56,7 +56,7 @@
 
 }
 
-.roomDetails__body__right > * {
+.locationDetails__body__right > * {
     margin-bottom: 20px;
     border-bottom: solid 1px rgb(201, 201, 201);
 }

@@ -1,6 +1,6 @@
-import './RoomFilter.css'
+import './LocationFilter.css'
 
-import FormGroup from '@material-ui/core/FormGroup';
+import { FormGroup } from '@material-ui/core';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 
@@ -38,7 +38,17 @@ const GreenSlider = withStyles({
     },
   })(Slider);
 
-function RoomFilter({checkboxState, setCheckboxState, sliderPercentageState, setSliderPercentageState, sliderRoomState, setSliderRoomState}) {
+  const GreenCheckbox = withStyles({
+    root: {
+        color: '#52af77',
+        '&$checked': {
+            color: '#52af77',
+        },
+    },
+    checked: {},
+  })((props) => <Checkbox color="default" {...props} />);
+
+function LocationFilter({checkboxState, setCheckboxState, sliderPercentageState, setSliderPercentageState, sliderLocationState, setSliderLocationState}) {
 
     // handle checkbox being clicked
     const handleCheckboxChange = (event) => {
@@ -51,22 +61,22 @@ function RoomFilter({checkboxState, setCheckboxState, sliderPercentageState, set
         setSliderPercentageState(newValue);
     };
 
-    const handleRoomSliderChange = (event, newValue) => {
-        setSliderRoomState(newValue);
+    const handleLocationSliderChange = (event, newValue) => {
+        setSliderLocationState(newValue);
     };
 
     return (
-        <div className='roomFilter'>
-            <div className='roomFilter__left'>
+        <div className='locationFilter'>
+            <div className='locationFilter__left'>
                 <FormControlLabel
-                    control={<Checkbox checked={checkboxState.filters} onChange={handleCheckboxChange} name="filters" color="white" />}
+                    control={<GreenCheckbox checked={checkboxState.filters} onChange={handleCheckboxChange} name="filters" />}
                     label="Dashboard Filters" />
             </div>
 
             { checkboxState.filters &&
-                <div className='roomFilter__center'>
+                <div className='locationFilter__center'>
                     <Typography id='green-slider'gutterBottom>
-                        Minimum Room Occupancy Percent</Typography>
+                        Minimum Location Occupancy Percent</Typography>
                     <GreenSlider 
                         value={sliderPercentageState}
                         onChange = {handlePercentageSliderChange}
@@ -78,27 +88,27 @@ function RoomFilter({checkboxState, setCheckboxState, sliderPercentageState, set
                         Current Number of People
                     </Typography>
                     <GreenSlider
-                        value={sliderRoomState}
-                        onChange={handleRoomSliderChange}
+                        value={sliderLocationState}
+                        onChange={handleLocationSliderChange}
                         valueLabelDisplay="auto"
                         aria-labelledby="range-slider"
                     />
                 </div> 
             }
 
-            <div className='roomFilter__right'>
+            <div className='locationFilter__right'>
             <FormControlLabel
-                control={<Checkbox checked={checkboxState.developer_options} onChange={handleCheckboxChange} name="developer_options" color="white" />}
+                control={<GreenCheckbox checked={checkboxState.developer_options} onChange={handleCheckboxChange} name="developer_options" />}
                 label="Developer Options" />
 
             { checkboxState.developer_options &&
-                <FormGroup column>
+                <FormGroup column="true">
                     <FormControlLabel
-                        control={<Checkbox checked={checkboxState.linear_data} onChange={handleCheckboxChange} name="linear_data" color="white" />}
+                        control={<GreenCheckbox checked={checkboxState.linear_data} onChange={handleCheckboxChange} name="linear_data" />}
                         label="Linear Data" />
 
                     <FormControlLabel
-                        control={<Checkbox checked={checkboxState.random_data} onChange={handleCheckboxChange} name="random_data" color="white" />}
+                        control={<GreenCheckbox checked={checkboxState.random_data} onChange={handleCheckboxChange} name="random_data" />}
                         label="Random Data" />
                 </FormGroup>
             }
@@ -108,4 +118,4 @@ function RoomFilter({checkboxState, setCheckboxState, sliderPercentageState, set
     )
 }
 
-export default RoomFilter
+export default LocationFilter

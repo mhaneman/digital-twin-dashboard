@@ -1,4 +1,15 @@
-.room {
+.locations {
+    display: grid;
+    gap: 30px 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.loading {
+    padding: 30px 30px;
+    color: var(--text-color);
+}
+
+.location {
     display: flex;
     flex-direction: column;
     min-height: 100px;
@@ -9,18 +20,18 @@
     border-radius: var(--border-radius);
 }
 
-.room__roomName {
+.location__locationName {
     text-align: center;
 
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
-.room__roomDetails > * {
+.location__locationDetails > * {
     padding: 2px 0;
 }
 
-.room:hover {
+.location:hover {
     transform: scale(1.05);
     color: grey;
 }

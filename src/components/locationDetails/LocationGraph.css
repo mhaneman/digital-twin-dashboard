@@ -1,16 +1,16 @@
-.roomGraph {
+.locationGraph {
     padding: 15px 20px;
 }
 
-.roomGraph__title {
+.locationGraph__title {
     padding-bottom: 30px;
 }
-.roomGraph__details {
+.locationGraph__details {
     display: flex;
     justify-content: left;
 }
 
-.roomGraph__details__item {
+.locationGraph__details__item {
     display: flex;
     flex-direction: column;
 

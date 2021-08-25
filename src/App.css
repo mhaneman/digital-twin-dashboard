@@ -1,23 +1,38 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.dashboard__body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 .dashboard__sidebar {
     position: fixed;
-    width: var(--sidebar-width);
+
     min-height: 100vh;
+    width: var(--sidebar-width);
 
     background-color: var(--bg);
     color: var(--text-color);
     box-shadow: var(--box-shadow-sidebar);
 }
 
-.dashboard__body {
+.dashboard__contents {
+    position: relative;
     display: flex;
+
+    flex-grow: 1;
     margin-left: var(--sidebar-width);
+
     padding: 2rem;
-    min-height: 100vh;
-
     background-color: var(--bg-accent);
-}
-
-.link {
-    color: inherit;
-    text-decoration: inherit;
 }

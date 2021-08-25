@@ -1,19 +1,24 @@
-.roomFilter {
+.locationFilter {
     display: flex;
     justify-content: space-between;
     
     padding: 15px 20px;
     margin-bottom: 15px;
-    background-color: rgb(241, 255, 238);
+    color: var(--text-color);
+    background-color: var(--bg-container);
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
 }
 
-.roomFilter__left {
+.locationFilter__left {
     display: flex;
     flex-direction: column;
 }
 
-.roomFilter__right {
+.locationFilter__right {
     
+}
+
+.PrivateSwitchBase-input-4 {
+    color: white;
 }

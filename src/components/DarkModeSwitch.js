@@ -38,7 +38,7 @@ const DarkModeSwitch = () => {
         />
       }
 
-      label = "dark mode"
+      label = "enable dark mode"
       labelPlacement = "end"
     />
   );

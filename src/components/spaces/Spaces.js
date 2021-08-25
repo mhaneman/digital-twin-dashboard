@@ -2,8 +2,8 @@ import './Spaces.css'
 
 import React, { useState } from 'react'
 
-import Rooms from './Rooms'
-import RoomFilter from './RoomFilter'
+import Locations from './Locations'
+import LocationFilter from './LocationFilter'
 
 function Spaces() {
 
@@ -15,25 +15,25 @@ function Spaces() {
     });
 
     const [sliderPercentageState, setSliderPercentageState] = useState(0);
-    const [sliderRoomState, setSliderRoomState] = useState([0, 100]);
+    const [sliderLocationState, setSliderLocationState] = useState([0, 100]);
 
     return (
         <div className='spaces'>
-            <RoomFilter 
+            <LocationFilter 
                 checkboxState = {checkboxState} 
                 setCheckboxState = {setCheckboxState} 
 
                 sliderPercentageState = {sliderPercentageState}
                 setSliderPercentageState = {setSliderPercentageState}
 
-                sliderRoomState = {sliderRoomState}
-                setSliderRoomState = {setSliderRoomState}
+                sliderLocationState = {sliderLocationState}
+                setSliderLocationState = {setSliderLocationState}
             />
 
-            <Rooms 
+            <Locations 
                 checkboxState = {checkboxState}
                 sliderPercentageState = {sliderPercentageState}
-                sliderRoomState = {sliderRoomState}
+                sliderLocationState = {sliderLocationState}
             />
         </div>
     )
