@@ -2,6 +2,21 @@ import React, {useState, useEffect }from "react";
 
 import Switch from '@material-ui/core/Switch';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import { withStyles, makeStyles } from '@material-ui/core/styles';
+
+const GreenSwitch = withStyles({
+    switchBase: {
+      color: '#77c591',
+      '&$checked': {
+        color: '#77c591',
+      },
+      '&$checked + $track': {
+        backgroundColor: '#77c591',
+      },
+    },
+    checked: {},
+    track: {},
+  })(Switch);
 
 const DarkModeSwitch = () => {
 
@@ -31,7 +46,7 @@ const DarkModeSwitch = () => {
     <FormControlLabel
       value = "end"
       control = {
-        <Switch 
+        <GreenSwitch 
           color="primary"
           checked={darkMode}
           onChange = {() => setDarkMode(!darkMode)}  

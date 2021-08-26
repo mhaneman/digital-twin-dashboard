@@ -2,6 +2,7 @@ import "./HeaderDashboard.css";
 
 import useDetectClickOut from "./useDetectClickOut";
 import DarkModeSwitch from "./DarkModeSwitch"
+import GenerateLogoSVG from "./GenerateLogoSVG"
 
 import React, { forwardRef } from 'react';
 
@@ -18,7 +19,8 @@ function HeaderDashboard() {
         <div className="headerDashboard">
 
             <div className="headerDashboard__left">
-                <h3>Campus Smart City</h3>
+                <GenerateLogoSVG />
+                <h3>Digital Twin</h3>
             </div>
 
             <div className="headerDashboard__right">

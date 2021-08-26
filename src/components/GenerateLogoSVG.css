@@ -1,0 +1,28 @@
+.logo > * {
+    transition: transform 1s;
+}
+
+.logo:hover > .logo__bottomFace {
+    transform: translate(0, -100px);
+}
+
+.logo:hover > .logo__topFace {
+    transform: translate(0, 100px);
+}
+
+.logo:hover > .logo__frontFace {
+    transform: translate(60px, -20px);
+}
+
+.logo__bottomFace {
+    fill: var(--color-green-dark);
+}
+
+.logo__topFace {
+    fill: var(--color-green-dark);
+}
+
+.logo__frontFace {
+    fill: var(--color-green);
+}
+
