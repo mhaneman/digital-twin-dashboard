@@ -15,9 +15,9 @@ function Sidebar() {
         <div className="sidebar">
             <SidebarItem Icon={NoteIcon} title='Summary' link = '/dashboard/summary' />
 
-            <SidebarItem Icon={MeetingRoomIcon} title='Spaces' link = '/dashboard/spaces' />
-
             <SidebarItem Icon={AssessmentIcon} title='Analytics' link = '/dashboard/analytics' />
+
+            <SidebarItem Icon={MeetingRoomIcon} title='Spaces' link = '/dashboard/spaces' />
 
             <SidebarItem Icon={BusinessIcon} title='Buildings' link='/dashboard/buildings'/>
         </div>
